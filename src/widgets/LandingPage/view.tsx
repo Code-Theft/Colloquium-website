@@ -8,13 +8,11 @@
  */
 
 import React from "react";
-import LandingPageview from "@widgets/LandingPage";
 
-export default function Home() {
+export default function LandingPageview() {
   return (
-    <>
-      <LandingPageview />
-      <div>Hello Myraaa</div>
-    </>
+    <div className="home" style={{backgroundImage: 'url("/landing.png")'}}>
+      <div>LandingPage</div>
+    </div>
   );
 }

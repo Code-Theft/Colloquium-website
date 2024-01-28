@@ -7,14 +7,6 @@
  * @author Janajith D
  */
 
-import React from "react";
-import LandingPageview from "@widgets/LandingPage";
+import LandingPageview from "@widgets/LandingPage/view";
+export default LandingPageview;
 
-export default function Home() {
-  return (
-    <>
-      <LandingPageview />
-      <div>Hello Myraaa</div>
-    </>
-  );
-}

@@ -9,6 +9,7 @@
 
 import React from "react";
 import type { Metadata } from "next";
+import "@styles/scss/main.scss";
 
 export const metadata: Metadata = {
   title: "Codetheft Portfolio Website",
