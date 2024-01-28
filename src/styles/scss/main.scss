@@ -1,6 +1,8 @@
 @import "custom/variables";
-@import "custom/home";
+@import "bootstrap-5.3/bootstrap.scss";
+@import "bootstrap-5.3/functions.scss";
 
+@import "custom/home";
 body {
     padding: 0;
     margin: 0;
