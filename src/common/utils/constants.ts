@@ -7,13 +7,10 @@
  * @author Janajith D
  */
 
-import React from "react";
-import LandingPageview from "@widgets/LandingPage";
+export const constants = {
 
-export default function Home() {
-  return (
-    <>
-      <LandingPageview />
-    </>
-  );
+}
+
+export const imageAlts ={
+    LOGO: "Colloquium Logo",
 }

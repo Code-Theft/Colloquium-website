@@ -1,11 +1,22 @@
 .home {
-  background-color: $primary-color;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-size: cover; 
-  background-position: center; 
+  background-size: cover;
+  background-position: center;
+  color: #000;
 
-  
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+  }
+  .centered-content {
+    text-align: center;
+  }
 }

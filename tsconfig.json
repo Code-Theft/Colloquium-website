@@ -22,11 +22,11 @@
     "paths": {
       "@app/*": ["./src/app/*"],
       "@api/*": ["./src/api/*"],
-      "@utils/*": ["./src/utils/*"],
       "@widgets/*": ["./src/widgets/*"],
       "@lib/*": ["./src/common/lib/*"],
       "@font/*": ["./src/common/font/*"],
       "@core/*": ["./src/common/core/*"],
+      "@utils/*": ["./src/common/utils/*"],
       "@icons/*": ["./src/common/icons/*"],
       "@themes/*": ["./src/common/themes/*"],
       "@styles/*": ["./src/styles/*"],
