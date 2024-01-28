@@ -13,4 +13,14 @@ export const constants = {
 
 export const imageAlts ={
     LOGO: "Colloquium Logo",
+    CSKS_LOGO: "IEEE Computer Society Kerala Chapter"
 }
+
+export const navigation = [
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Schedule", href: "" },
+    { name: "Speakers", href: "#" },
+    { name: "Sponsors", href: "#" },
+    { name: "Contact", href: "#" },
+  ];
