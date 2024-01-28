@@ -7,5 +7,12 @@
  * @author Janajith D
  */
 
-import Image from "next/image";
-export default Image;
+import React from "react";
+
+export default function LandingPageview() {
+  return (
+    <div className="home" style={{backgroundImage: 'url("/landing.png")'}}>
+      <div>LandingPage</div>
+    </div>
+  );
+}

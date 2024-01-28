@@ -7,5 +7,6 @@
  * @author Janajith D
  */
 
-import Image from "next/image";
-export default Image;
+import LandingPageview from "@widgets/LandingPage/view";
+export default LandingPageview;
+

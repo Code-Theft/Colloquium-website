@@ -29,6 +29,8 @@
       "@core/*": ["./src/common/core/*"],
       "@icons/*": ["./src/common/icons/*"],
       "@themes/*": ["./src/common/themes/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@images/*": ["./src/images/*"],
       "@components/*": ["./src/common/components/*"]
     }
   },
