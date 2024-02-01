@@ -1,11 +1,17 @@
-.home {
-  background-color: $primary-color;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover; 
-  background-position: center; 
+.home-custom {
+  background-image: url("/images/landing2.png");
+  background-size: cover;
+  background-position: center;
+  background-color: black; // Set the background color to black
+  height: 100vh; // Set the height to 100% of the viewport height for fullscreen
+  margin: 0; // Remove default margin
+  padding: 0; // Remove default padding
 
-  
+  // If you want the background image to cover the entire screen even when scrolling
+  // you can set the background-attachment property to fixed
+  background-attachment: fixed;
+}
+
+.custom-footer {
+    background-color: black;
 }
