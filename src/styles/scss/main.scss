@@ -1,9 +1,13 @@
 @import "custom/variables";
-@import "bootstrap-5.3/bootstrap.scss";
-@import "bootstrap-5.3/functions.scss";
-
 @import "custom/home";
+@import "custom/header";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     padding: 0;
     margin: 0;
+    font-family: $font-family;
   }

@@ -7,13 +7,5 @@
  * @author Janajith D
  */
 
-import React from "react";
-import LandingPageview from "@widgets/LandingPage";
-
-export default function Home() {
-  return (
-    <>
-      <LandingPageview />
-    </>
-  );
-}
+import Footerview from "@widgets/Footer/view";
+export default Footerview;

@@ -7,13 +7,5 @@
  * @author Janajith D
  */
 
-import React from "react";
-import LandingPageview from "@widgets/LandingPage";
-
-export default function Home() {
-  return (
-    <>
-      <LandingPageview />
-    </>
-  );
-}
+import {Bars3Icon as Icon3Bars } from '@heroicons/react/24/outline';
+export default Icon3Bars;

@@ -7,13 +7,5 @@
  * @author Janajith D
  */
 
-import React from "react";
-import LandingPageview from "@widgets/LandingPage";
-
-export default function Home() {
-  return (
-    <>
-      <LandingPageview />
-    </>
-  );
-}
+import {XMarkIcon as IconClose } from '@heroicons/react/24/outline';
+export default IconClose;

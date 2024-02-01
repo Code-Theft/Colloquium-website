@@ -7,13 +7,5 @@
  * @author Janajith D
  */
 
-import React from "react";
-import LandingPageview from "@widgets/LandingPage";
-
-export default function Home() {
-  return (
-    <>
-      <LandingPageview />
-    </>
-  );
-}
+import { Dialog } from '@headlessui/react';
+export default Dialog;
