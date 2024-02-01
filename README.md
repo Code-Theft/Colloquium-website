@@ -17,14 +17,17 @@ npm start      # Start the production server.
 
 To get started with this project, follow these steps:
 
-1. Clone this repository [https://github.com/Code-Theft/Portfolio-webiste](https://github.com/Code-Theft/Portfolio-webiste)
-2. From the root folder, install the dependencies using: `` `npm install` ``
+1. Clone this repository 
+2. From the root folder, install the dependencies using: `` npm install ``
 
 
-## Todo
+## File Structure
 
-1. UI Wiring
-2. CSS Library confirmation
-3. Adding Testing tools
-4. Data Wiring
-5. Depolyment
+## Creating Pull Request
+
+    feat: Add a new feature
+    fix: 
+    refactor: 
+    css: 
+
+
