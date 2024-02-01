@@ -9,8 +9,8 @@
 
 import React from "react";
 import Header from "@widgets/Header";
-import Content from "@widgets/LandingPage/components/Content";
 import Footer from "@widgets/Footer";
+import Content from "@widgets/LandingPage/components/Content";
 
 export default function LandingPageview() {
   return (

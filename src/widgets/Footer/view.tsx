@@ -50,7 +50,7 @@ export default function Footerview() {
 
           <ul className="mt-6 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12">
             {navigation.map((nav) => (
-              <li>
+              <li key={nav?.name}>
                 <Link
                   className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                   href={nav?.href}
