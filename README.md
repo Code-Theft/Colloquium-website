@@ -1,4 +1,4 @@
-# Portfolio Website
+# Colloquium Website
 
 A website developed using NextJS - App Router and TypeScript. The website development is currently in progress.
 The Live version of the website is available at:
@@ -17,8 +17,19 @@ npm start      # Start the production server.
 
 To get started with this project, follow these steps:
 
-1. Clone this repository [https://github.com/Code-Theft/Portfolio-webiste](https://github.com/Code-Theft/Portfolio-webiste)
+1. Clone this repository [https://github.com/Code-Theft/Colloquium-website](https://github.com/Code-Theft/Colloquium-webiste)
 2. From the root folder, install the dependencies using: `` `npm install` ``
+3. Follow the guidelines provided in this readme.
+
+
+## File Structure
+
+## Creating Commit Message
+
+## Creating a Pull Request
+
+
+
 
 
 ## Todo
