@@ -66,7 +66,7 @@ Colloquium Website
 
 The following path aliases simplify project organization and moduel imports, promoting code reuseability, maintainability, and consistency.
 
-- `@app` (points to `/src/app`): Central directory housing all pages and routes for the application.
+- `@app` ( points to `/src/app`): Central directory housing all pages and routes for the application.
 
 - `@api` (points to `src/app/api`): Module repository dedicated to API integrations, managing HTTP requests, and handling data retrieval. Facilitates seamless communication between the frontend and backend components.
 - `@components` (located at `/src/common/components`): Contains common fuctional components used across multiple sections of the application.
@@ -96,11 +96,13 @@ Utilizing the type prefix in your commit messages is vital for clear communicati
 
 ## Creating a Pull Request
 
+- PR shall be raised from a specific branch to the `master` branch. The branch name shall be in the format: `branch/[AUTHOR_NAME]`
+- PR titles are expected to be meaningful, providing clear insights into the changes introduced.
+- The PR description should include the following details:
+  - **Packages Added:** Enumerate all newly added packages to the project.
+  - **Build Status:** Include a screenshot of the build status to verify that the production environment remains unaffected.
+  - **Output:** Attach a screenshot capturing the development environment for comprehensive review.
 
-## Todo
+  ![PR example](/public//images/samplePR.png)
 
-1. UI Wiring
-2. CSS Library confirmation
-3. Adding Testing tools
-4. Data Wiring
-5. Depolyment
+
