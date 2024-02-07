@@ -46,6 +46,7 @@
 
 .innerRow {
     display: flex;
+    gap: 2rem;
 }
 
 @media only screen and (max-width: 767px) {
@@ -58,6 +59,7 @@
 
 .innerRowReverse {
     display: flex;
+    gap: 2rem;
     flex-direction: row-reverse;
 }
 

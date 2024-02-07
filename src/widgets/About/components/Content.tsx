@@ -6,35 +6,11 @@
  *
  * @author Abhishek Santhosh
  */
-
-'use client'
-
 import React, { useEffect, useState } from 'react';
 import styles from '@themes/about.module.css'
-import Image from "@components/Image";
-import { aboutData, imageAlts } from "@utils/constants";
-import { reverse } from 'dns';
+import { aboutData } from "@utils/constants";
 
 export default function AboutPageView() {
-    const [windowWidth, setWindowWidth] = useState(767);
-
-    useEffect(() => {
-        // Update window width on mount and on resize
-        const updateWindowWidth = () => {
-            setWindowWidth(window.innerWidth);
-        };
-
-        // Initial update
-        updateWindowWidth();
-
-        // Add event listener for window resize
-        window.addEventListener('resize', updateWindowWidth);
-
-        // Cleanup event listener on component unmount
-        return () => {
-            window.removeEventListener('resize', updateWindowWidth);
-        };
-    }, []);
     return (
         <>
             <div className={styles.container}>
