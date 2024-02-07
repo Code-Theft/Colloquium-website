@@ -7,11 +7,11 @@
  * @author Janajith D
  */
 
-import { imageAlts, navigation } from "@utils/constants";
-import Image from "@components/Image";
 import React from "react";
-import IconScrollToTop from "@icons/IconScrollToTop";
 import Link from "@components/Link";
+import Image from "@components/Image";
+import IconScrollToTop from "@icons/IconScrollToTop";
+import { imageAlts, navigation } from "@utils/constants";
 
 export default function Footerview() {
   return (
@@ -31,7 +31,7 @@ export default function Footerview() {
           <div>
             <div className="flex justify-center text-white lg:justify-start">
               <Image
-                src="/images/csks_logowhite.png"
+                src="/images/logos/csks/csks_logowhite.png"
                 alt={imageAlts.CSKS_LOGO}
                 width={150}
                 height={30}
