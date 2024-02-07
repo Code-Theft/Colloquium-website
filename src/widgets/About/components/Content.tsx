@@ -7,33 +7,54 @@
  * @author Abhishek Santhosh
  */
 
-import React from "react";
+'use client'
+
+import React, { useEffect, useState } from 'react';
 import styles from '@themes/about.module.css'
 import Image from "@components/Image";
-import { imageAlts } from "@utils/constants";
+import { aboutData, imageAlts } from "@utils/constants";
+import { reverse } from 'dns';
 
 export default function AboutPageView() {
+    const [windowWidth, setWindowWidth] = useState(767);
+
+    useEffect(() => {
+        // Update window width on mount and on resize
+        const updateWindowWidth = () => {
+            setWindowWidth(window.innerWidth);
+        };
+
+        // Initial update
+        updateWindowWidth();
+
+        // Add event listener for window resize
+        window.addEventListener('resize', updateWindowWidth);
+
+        // Cleanup event listener on component unmount
+        return () => {
+            window.removeEventListener('resize', updateWindowWidth);
+        };
+    }, []);
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.row}>
-                    <div className={styles.titleRow}>
-                        <span className={styles.title}>About COLLOQUIUM</span>
-                    </div>
-                    <div className={styles.innerRow}>
-                        <div className={styles.rowLeft}>
-                            <img src="/images/logo.png" alt="" className={styles.colloquiumLogo} />
+                <div className={styles.wrap}>
+                    {aboutData && aboutData.map((about, index) => (
+                        <div className={styles.row} key={index} >
+                            <div className={styles.titleRow}>
+                                <span className={styles.title}>{about?.title}</span>
+                            </div>
+                            <div className={about?.reverse ? styles.innerRowReverse : styles.innerRow}>
+                                <div className={styles.rowLeft}>
+                                    <img src={about?.img} alt="" className={styles.colloquiumLogo} />
+                                </div>
+                                <div className={styles.rowRight}>
+                                    <p className={styles.description}>{about?.desc}</p>
+                                </div>
+                            </div>
                         </div>
-                        <div className={styles.rowRight}>
-                            <p className={styles.description}>COLLOQUIUM, hosted annually by the IEEE Computer Society Kerala Chapter (CSKS), is a premier networking and knowledge-sharing event. Designed for IEEE and non-IEEE professionals, COLLOQUIUM provides a unique platform for sharing insights, staying updated on industry trends, and fostering interactions among professionals from diverse technological domains.
-
-                                <br /><br />Each edition focuses on a specific theme, and COLLOQUIUM'24 will highlight the pivotal field of Cloud Computing. Join us at this vibrant event to delve into the latest advancements, connect with experts, and explore the future of technology. Don't miss the opportunity to be part of the dynamic discussions and collaborative sessions that define COLLOQUIUM!
-                            </p>
-                        </div>
-                    </div>
+                    ))}
                 </div>
-                <div className={styles.row}></div>
-                <div className={styles.row}></div>
             </div>
         </>
     );
