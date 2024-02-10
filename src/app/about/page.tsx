@@ -4,13 +4,16 @@
  * This code is the property of IEEE CS Kerala Chapter and is protected by copyright law.
  * Unauthorized use, reproduction, or distribution is strictly prohibited.
  *
- * @author Janajith D
+ * @author Abhishek
  */
 
-import React from 'react'
+import React from "react";
+import AboutPageView from "@widgets/About";
 
-export default function view() {
-  return (
-    <div>view</div>
-  )
+export default function Home() {
+    return (
+        <>
+            <AboutPageView />
+        </>
+    );
 }
