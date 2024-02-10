@@ -8,10 +8,10 @@
  */
 
 import React from "react";
-import IconClose from "@icons/IconClose";
 import Dialog from "@core/Dialog";
-import Hero from "@widgets/Header/Hero";
+import IconClose from "@icons/IconClose";
 import { navigation } from "@utils/constants";
+import ColloquiumLogo from "@icons/ColloquiumLogo";
 
 interface NavMobileViewProps {
     mobileMenuOpen: boolean;
@@ -29,7 +29,7 @@ export default function NavMobileView({mobileMenuOpen, setMobileMenuOpen}: NavMo
       <div className="fixed inset-0 z-50" />
       <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div className="flex items-center justify-between">
-          <Hero />
+          <ColloquiumLogo />
           <button
             type="button"
             className="-m-2.5 rounded-md p-2.5 text-white"
