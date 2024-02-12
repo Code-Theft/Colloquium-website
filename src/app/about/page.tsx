@@ -10,7 +10,7 @@
 import React from "react";
 import AboutPageView from "@widgets/About";
 
-export default function AboutPage() {
+export default function About() {
     return (
         <>
             <AboutPageView />

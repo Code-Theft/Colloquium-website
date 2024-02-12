@@ -7,5 +7,5 @@
  * @author Janajith D
  */
 
-import Headerview from "@widgets/Header/view";
-export default Headerview;
+import Header from "@widgets/Header/view";
+export default Header;

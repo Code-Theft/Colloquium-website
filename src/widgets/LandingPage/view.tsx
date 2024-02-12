@@ -8,21 +8,18 @@
  */
 
 import React from "react";
-import Header from "@widgets/Header";
-import Footer from "@widgets/Footer";
-import Speaker from "@widgets/Speakers";
 import Content from "@widgets/LandingPage/components/Content";
-
+import AssetsFooterWide from "@core/AssetsFooterWide";
 
 export default function LandingPageview() {
   return (
     <>
-      <div className="bg-white home-custom">
-        <Header />
+      <div className="home-custom">
         <Content />
+        <div className="footer">
+          <AssetsFooterWide />
+        </div>
       </div>
-      <Speaker />
-      <Footer />
     </>
   );
 }

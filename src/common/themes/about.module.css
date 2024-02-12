@@ -1,11 +1,12 @@
 .homeContainer {
-    background-color: black;
+    background-color: inherit;
     color: #fff;
 }
 
 .container {
     min-height: 100vh;
     height: auto;
+    padding: 0 0 3rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +33,7 @@
     font-weight: 800;
 
     /* color: rgb(254 188 101 / var(--tw-text-opacity));  */
-    background: -webkit-linear-gradient(45deg, rgb(255, 255, 255), rgb(254 188 101), rgb(254 188 101), rgb(255, 255, 255)) text;
+    background: -webkit-linear-gradient(45deg, rgb(0, 0, 0), rgb(254 188 101), rgb(254 188 101), rgb(0, 0, 0)) text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -105,10 +106,27 @@
     --tw-text-opacity: 1;
     text-align: justify;
     color: rgb(203 213 224 / var(--tw-text-opacity));
+    padding: 2rem 4rem;
 }
 
 @media only screen and (max-width: 767px) {
-    .logo{
+    .aboutItem {
+        flex: 6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.aboutDesc {
+    text-align: justify;
+    color: rgb(49, 49, 49);
+}
+
+@media only screen and (max-width: 767px) {
+    .logo {
         height: 5rem;
         width: 15rem;
     }
