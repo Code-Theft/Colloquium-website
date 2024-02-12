@@ -84,14 +84,14 @@ export const aboutUs = [
     id: 3,
     title: "About IEEE",
     desc: "IEEE, the largest technical professional organization globally, is committed to advancing technology for the betterment of humanity. Through its highly regarded publications, conferences, technology standards, and a wide range of professional and educational activities, IEEE and its members inspire a global community. By providing a platform for collaboration, IEEE empowers professionals to make significant contributions to society and create positive impacts on a global scale.",
-    img: "/images/logos/ieee/IEEE_white.png",
+    img: "/images/logos/ieee/IEEE_black.png",
     reverse: false,
   },
   {
     id: 4,
     title: "About IEEE CS",
     desc: "	The IEEE Computer Society (CS) is at the forefront of empowering and advancing professionals in the field of Computer Science and Engineering, driving global technological progress. By fostering active participation and collaboration among computer engineers, scientists, academia, and industry experts, IEEE CS establishes a benchmark for education and engagement. Through its conferences, publications, and diverse programs, the society creates",
-    img: "/images/logos/cs/IEEE-CS_LogoTM-white.png",
+    img: "/images/logos/cs/IEEE-CS_LogoTM-black.png",
     reverse: true,
   },
 ] as const;
