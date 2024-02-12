@@ -1,3 +1,13 @@
+
+/**
+ * © IEEE CS Kerala Chapter 2024. All rights reserved.
+ *
+ * This code is the property of IEEE CS Kerala Chapter and is protected by copyright law.
+ * Unauthorized use, reproduction, or distribution is strictly prohibited.
+ *
+ * @author Janajith D
+ */
+
 import React from "react";
 import Image from "next/image";
 import { members } from "@utils/constants";
@@ -22,8 +32,7 @@ export default function SpeakerView() {
 
             <div className="flex flex-wrap">
               {members?.map((item, index) => (
-                <>
-                  <div
+                <div
                     className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4"
                     key={`speaker_map_key_${index + 1}`}
                   >
@@ -45,7 +54,6 @@ export default function SpeakerView() {
                       </div>
                     </div>
                   </div>
-                </>
               ))}
             </div>
           </div>

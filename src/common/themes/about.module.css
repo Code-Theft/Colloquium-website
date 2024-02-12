@@ -31,7 +31,6 @@
 .title {
     font-size: 1.7rem;
     font-weight: 800;
-
     /* color: rgb(254 188 101 / var(--tw-text-opacity));  */
     background: -webkit-linear-gradient(45deg, rgb(0, 0, 0), rgb(254 188 101), rgb(254 188 101), rgb(0, 0, 0)) text;
     -webkit-text-fill-color: transparent;
