@@ -10,7 +10,8 @@ module.exports = {
   theme: {
     colors: {
       colloquiumOrange: "#febc65",
-      ColloquiumORangeNormal: "#ff9100",
+      ColloquiumOrangeNormal: "#ff9100",
+      colloquiumOrangeLight: "#fff9f1",
       white: "#ffffff",
       black: {
 

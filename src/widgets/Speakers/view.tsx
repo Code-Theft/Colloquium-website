@@ -4,7 +4,7 @@ import { members } from "@utils/constants";
 
 export default function SpeakerView() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white py-32">
+    <div className="flex items-center justify-center min-h-screen bg-colloquiumOrangeLight py-32">
       <div className="flex flex-col">
         <div className="flex flex-col mt-8">
           <div className="container max-w-7xl px-4">
@@ -14,8 +14,8 @@ export default function SpeakerView() {
                   Our Speakers
                 </h1>
                 <p className="text-gray-700 text-lg font-light">
-                  With over 100 years of combined experience, we've got a
-                  well-seasoned team at the helm. //Todo: Change needed
+                  Learn from the best and brightest minds shaping the future of
+                  your industry.
                 </p>
               </div>
             </div>

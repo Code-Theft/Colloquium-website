@@ -8,6 +8,7 @@
  */
 
 import Link from "@components/Link";
+import { constants } from "@utils/constants";
 import React from "react";
 
 export default function Content() {
@@ -20,7 +21,7 @@ export default function Content() {
           </div>
         </div>
         <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-ColloquiumORangeNormal sm:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight text-ColloquiumOrangeNormal sm:text-6xl">
             Colloquium'24
           </h1>
           <p className="mt-6 text-sm leading-8 text-black-600">
@@ -32,13 +33,13 @@ export default function Content() {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link
-              href="#"
+              href={constants.REGISTER_LINK}
               className="rounded-md border boder-indigo bg-black-300 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-colloquiumOrange  hover:text-black-300 transition duration-300 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Register Now
             </Link>
             <Link
-              href="#"
+              href=""
               className="text-sm font-semibold leading-6 text-black hover:text-colloquiumOrange transition duration-300 ease-in-out"
             >
               Learn more <span aria-hidden="true">→</span>
