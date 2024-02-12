@@ -17,7 +17,7 @@ export const imageAlts = {
 export const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Schedule", href: "" },
+  { name: "Schedule", href: "/schedule" },
   { name: "Speakers", href: "#" },
   { name: "Sponsors", href: "#" },
   { name: "Contact", href: "#" },
