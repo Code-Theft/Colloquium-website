@@ -8,7 +8,7 @@ export default function AssetsFooterWide() {
       viewBox="0 0 3240 258"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="svg-animation"
+      className="AssetsFooterWide"
     >
       <mask
         id="mask0_0_1"

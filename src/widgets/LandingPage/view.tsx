@@ -13,13 +13,11 @@ import AssetsFooterWide from "@core/AssetsFooterWide";
 
 export default function LandingPageview() {
   return (
-    <>
-      <div className="home-custom">
-        <Content />
-        <div className="footer">
-          <AssetsFooterWide />
-        </div>
+    <div className="home-custom">
+      <Content />
+      <div className="landing-footer-container">
+        <AssetsFooterWide />
       </div>
-    </>
+    </div>
   );
 }
