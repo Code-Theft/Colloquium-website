@@ -12,7 +12,7 @@
 import Link from "@components/Link";
 import React, { useState } from "react";
 import Icon3Bars from "@icons/Icon3Bars";
-import { navigation } from "@utils/constants";
+import { constants, navigation } from "@utils/constants";
 import ColloquiumLogo from "@icons/ColloquiumLogo";
 import NavMobileView from "@widgets/Header/components/NavMobileView";
 
@@ -52,7 +52,7 @@ export default function Header() {
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
-            href="#"
+            href={constants.REGISTER_LINK}
             className="text-sm font-semibold leading-6 text-colloquiumOrange hover:text-black-600 transition duration-300 ease-in-out "
           >
             Register <span aria-hidden="true">&rarr;</span>

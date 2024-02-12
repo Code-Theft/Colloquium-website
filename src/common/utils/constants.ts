@@ -7,7 +7,9 @@
  * @author Janajith D
  */
 
-export const constants = {};
+export const constants = {
+  REGISTER_LINK: "https://docs.google.com/forms/d/e/1FAIpQLScI-AVHHHH6M4Md5K87uQKVlHJTmmH_fLoomGnyGSf-zAVTbQ/viewform?usp=sf_link"
+};
 
 export const imageAlts = {
   LOGO: "Colloquium Logo",
