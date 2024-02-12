@@ -36,6 +36,7 @@
 }
 
 .landing-footer-container svg {
-  animation: moveLeftToRight 20s ease-in-out 2s alternate, moveRightToLeft 20s ease-in-out 2s alternate;
+  animation: moveLeftToRight 20s ease-in-out 2s alternate,
+    moveRightToLeft 20s ease-in-out 2s alternate;
   animation-iteration-count: infinite;
 }

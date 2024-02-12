@@ -15,6 +15,7 @@ export const constants = {
 export const imageAlts = {
   LOGO: "Colloquium Logo",
   CSKS_LOGO: "IEEE Computer Society Kerala Chapter",
+  VENUE: "Park Centre, Technopark"
 };
 
 export const navigation = [
