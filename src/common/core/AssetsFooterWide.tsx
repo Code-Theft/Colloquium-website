@@ -253,8 +253,8 @@ export default function AssetsFooterWide() {
           y2="315.746"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#2C1E3B" />
-          <stop offset="1" stop-color="#18121F" />
+          <stop stopColor="#2C1E3B" />
+          <stop offset="1" stopColor="#18121F" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_0_1"
@@ -264,8 +264,8 @@ export default function AssetsFooterWide() {
           y2="489.319"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_0_1"
@@ -275,8 +275,8 @@ export default function AssetsFooterWide() {
           y2="261.203"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDD259" />
-          <stop offset="1" stop-color="#FD8C28" />
+          <stop stopColor="#FDD259" />
+          <stop offset="1" stopColor="#FD8C28" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_0_1"
@@ -286,8 +286,8 @@ export default function AssetsFooterWide() {
           y2="469.95"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_0_1"
@@ -297,8 +297,8 @@ export default function AssetsFooterWide() {
           y2="230.765"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_0_1"
@@ -308,8 +308,8 @@ export default function AssetsFooterWide() {
           y2="246.516"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDD259" />
-          <stop offset="1" stop-color="#FD8C28" />
+          <stop stopColor="#FDD259" />
+          <stop offset="1" stopColor="#FD8C28" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_0_1"
@@ -319,8 +319,8 @@ export default function AssetsFooterWide() {
           y2="74.4041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.02" stop-color="#EF4860" />
-          <stop offset="1" stop-color="#DD1047" />
+          <stop offset="0.02" stopColor="#EF4860" />
+          <stop offset="1" stopColor="#DD1047" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_0_1"
@@ -330,8 +330,8 @@ export default function AssetsFooterWide() {
           y2="191.623"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7CEEE2" />
-          <stop offset="1" stop-color="#64A2E2" />
+          <stop stopColor="#7CEEE2" />
+          <stop offset="1" stopColor="#64A2E2" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_0_1"
@@ -341,8 +341,8 @@ export default function AssetsFooterWide() {
           y2="172.625"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_0_1"
@@ -352,8 +352,8 @@ export default function AssetsFooterWide() {
           y2="202.526"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#2C1E3B" />
-          <stop offset="1" stop-color="#18121F" />
+          <stop stopColor="#2C1E3B" />
+          <stop offset="1" stopColor="#18121F" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_0_1"
@@ -363,8 +363,8 @@ export default function AssetsFooterWide() {
           y2="156.712"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_0_1"
@@ -374,8 +374,8 @@ export default function AssetsFooterWide() {
           y2="61.3431"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_0_1"
@@ -385,8 +385,8 @@ export default function AssetsFooterWide() {
           y2="105.334"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7CEEE2" />
-          <stop offset="1" stop-color="#64A2E2" />
+          <stop stopColor="#7CEEE2" />
+          <stop offset="1" stopColor="#64A2E2" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_0_1"
@@ -396,8 +396,8 @@ export default function AssetsFooterWide() {
           y2="125.902"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#2C1E3B" />
-          <stop offset="1" stop-color="#18121F" />
+          <stop stopColor="#2C1E3B" />
+          <stop offset="1" stopColor="#18121F" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_0_1"
@@ -407,8 +407,8 @@ export default function AssetsFooterWide() {
           y2="126.628"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDD259" />
-          <stop offset="1" stop-color="#FD8C28" />
+          <stop stopColor="#FDD259" />
+          <stop offset="1" stopColor="#FD8C28" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_0_1"
@@ -418,8 +418,8 @@ export default function AssetsFooterWide() {
           y2="63.7605"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_0_1"
@@ -429,8 +429,8 @@ export default function AssetsFooterWide() {
           y2="315.594"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#2C1E3B" />
-          <stop offset="1" stop-color="#18121F" />
+          <stop stopColor="#2C1E3B" />
+          <stop offset="1" stopColor="#18121F" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_0_1"
@@ -440,8 +440,8 @@ export default function AssetsFooterWide() {
           y2="489.167"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_0_1"
@@ -451,8 +451,8 @@ export default function AssetsFooterWide() {
           y2="261.051"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDD259" />
-          <stop offset="1" stop-color="#FD8C28" />
+          <stop stopColor="#FDD259" />
+          <stop offset="1" stopColor="#FD8C28" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_0_1"
@@ -462,8 +462,8 @@ export default function AssetsFooterWide() {
           y2="469.798"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_0_1"
@@ -473,8 +473,8 @@ export default function AssetsFooterWide() {
           y2="230.613"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_0_1"
@@ -484,8 +484,8 @@ export default function AssetsFooterWide() {
           y2="246.363"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDD259" />
-          <stop offset="1" stop-color="#FD8C28" />
+          <stop stopColor="#FDD259" />
+          <stop offset="1" stopColor="#FD8C28" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_0_1"
@@ -495,8 +495,8 @@ export default function AssetsFooterWide() {
           y2="74.2517"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.02" stop-color="#EF4860" />
-          <stop offset="1" stop-color="#DD1047" />
+          <stop offset="0.02" stopColor="#EF4860" />
+          <stop offset="1" stopColor="#DD1047" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_0_1"
@@ -506,8 +506,8 @@ export default function AssetsFooterWide() {
           y2="191.47"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7CEEE2" />
-          <stop offset="1" stop-color="#64A2E2" />
+          <stop stopColor="#7CEEE2" />
+          <stop offset="1" stopColor="#64A2E2" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_0_1"
@@ -517,8 +517,8 @@ export default function AssetsFooterWide() {
           y2="172.472"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_0_1"
@@ -528,8 +528,8 @@ export default function AssetsFooterWide() {
           y2="202.373"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#2C1E3B" />
-          <stop offset="1" stop-color="#18121F" />
+          <stop stopColor="#2C1E3B" />
+          <stop offset="1" stopColor="#18121F" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_0_1"
@@ -539,8 +539,8 @@ export default function AssetsFooterWide() {
           y2="156.559"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_0_1"
@@ -550,8 +550,8 @@ export default function AssetsFooterWide() {
           y2="61.1908"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_0_1"
@@ -561,8 +561,8 @@ export default function AssetsFooterWide() {
           y2="105.182"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7CEEE2" />
-          <stop offset="1" stop-color="#64A2E2" />
+          <stop stopColor="#7CEEE2" />
+          <stop offset="1" stopColor="#64A2E2" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_0_1"
@@ -572,8 +572,8 @@ export default function AssetsFooterWide() {
           y2="125.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#2C1E3B" />
-          <stop offset="1" stop-color="#18121F" />
+          <stop stopColor="#2C1E3B" />
+          <stop offset="1" stopColor="#18121F" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_0_1"
@@ -583,8 +583,8 @@ export default function AssetsFooterWide() {
           y2="126.475"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDD259" />
-          <stop offset="1" stop-color="#FD8C28" />
+          <stop stopColor="#FDD259" />
+          <stop offset="1" stopColor="#FD8C28" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_0_1"
@@ -594,8 +594,8 @@ export default function AssetsFooterWide() {
           y2="63.6082"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_0_1"
@@ -605,8 +605,8 @@ export default function AssetsFooterWide() {
           y2="315.594"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#2C1E3B" />
-          <stop offset="1" stop-color="#18121F" />
+          <stop stopColor="#2C1E3B" />
+          <stop offset="1" stopColor="#18121F" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_0_1"
@@ -616,8 +616,8 @@ export default function AssetsFooterWide() {
           y2="489.167"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_0_1"
@@ -627,8 +627,8 @@ export default function AssetsFooterWide() {
           y2="261.051"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDD259" />
-          <stop offset="1" stop-color="#FD8C28" />
+          <stop stopColor="#FDD259" />
+          <stop offset="1" stopColor="#FD8C28" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_0_1"
@@ -638,8 +638,8 @@ export default function AssetsFooterWide() {
           y2="469.798"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_0_1"
@@ -649,8 +649,8 @@ export default function AssetsFooterWide() {
           y2="230.613"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_0_1"
@@ -660,8 +660,8 @@ export default function AssetsFooterWide() {
           y2="246.363"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDD259" />
-          <stop offset="1" stop-color="#FD8C28" />
+          <stop stopColor="#FDD259" />
+          <stop offset="1" stopColor="#FD8C28" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_0_1"
@@ -671,8 +671,8 @@ export default function AssetsFooterWide() {
           y2="74.2517"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.02" stop-color="#EF4860" />
-          <stop offset="1" stop-color="#DD1047" />
+          <stop offset="0.02" stopColor="#EF4860" />
+          <stop offset="1" stopColor="#DD1047" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_0_1"
@@ -682,8 +682,8 @@ export default function AssetsFooterWide() {
           y2="191.47"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7CEEE2" />
-          <stop offset="1" stop-color="#64A2E2" />
+          <stop stopColor="#7CEEE2" />
+          <stop offset="1" stopColor="#64A2E2" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_0_1"
@@ -693,8 +693,8 @@ export default function AssetsFooterWide() {
           y2="172.472"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_0_1"
@@ -704,8 +704,8 @@ export default function AssetsFooterWide() {
           y2="202.373"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#2C1E3B" />
-          <stop offset="1" stop-color="#18121F" />
+          <stop stopColor="#2C1E3B" />
+          <stop offset="1" stopColor="#18121F" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_0_1"
@@ -715,8 +715,8 @@ export default function AssetsFooterWide() {
           y2="156.559"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_0_1"
@@ -726,8 +726,8 @@ export default function AssetsFooterWide() {
           y2="61.1908"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_0_1"
@@ -737,8 +737,8 @@ export default function AssetsFooterWide() {
           y2="105.182"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7CEEE2" />
-          <stop offset="1" stop-color="#64A2E2" />
+          <stop stopColor="#7CEEE2" />
+          <stop offset="1" stopColor="#64A2E2" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_0_1"
@@ -748,8 +748,8 @@ export default function AssetsFooterWide() {
           y2="125.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#2C1E3B" />
-          <stop offset="1" stop-color="#18121F" />
+          <stop stopColor="#2C1E3B" />
+          <stop offset="1" stopColor="#18121F" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_0_1"
@@ -759,8 +759,8 @@ export default function AssetsFooterWide() {
           y2="126.475"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDD259" />
-          <stop offset="1" stop-color="#FD8C28" />
+          <stop stopColor="#FDD259" />
+          <stop offset="1" stopColor="#FD8C28" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_0_1"
@@ -770,8 +770,8 @@ export default function AssetsFooterWide() {
           y2="63.6082"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#379278" />
-          <stop offset="1" stop-color="#1E514D" />
+          <stop stopColor="#379278" />
+          <stop offset="1" stopColor="#1E514D" />
         </linearGradient>
       </defs>
     </svg>
