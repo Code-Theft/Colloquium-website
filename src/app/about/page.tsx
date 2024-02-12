@@ -12,6 +12,8 @@ import AboutPageView from "@widgets/About";
 
 export default function AboutPage() {
     return (
-        <AboutPageView />
+        <>
+            <AboutPageView />
+        </>
     );
 }
