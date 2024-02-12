@@ -7,12 +7,16 @@
   margin: 0; // Remove default margin
   padding: 0; // Remove default padding
   height: auto;
-
-  // If you want the background image to cover the entire screen even when scrolling
-  // you can set the background-attachment property to fixed
-  background-attachment: fixed;
 }
 
 .custom-footer {
   background-color: black;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }

@@ -10,20 +10,22 @@
 import React from "react";
 import type { Metadata } from "next";
 import "@styles/scss/main.scss";
+import { Children } from "@lib/types";
+import Header from "@widgets/Header";
+
 
 export const metadata: Metadata = {
   title: "Codetheft Portfolio Website",
   description: "Created with NextJS and TypeScript",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: Children) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
