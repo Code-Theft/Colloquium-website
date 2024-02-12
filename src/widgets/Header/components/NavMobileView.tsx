@@ -26,13 +26,13 @@ export default function NavMobileView({mobileMenuOpen, setMobileMenuOpen}: NavMo
       open={mobileMenuOpen}
       onClose={setMobileMenuOpen}
     >
-      <div className="fixed inset-0 z-50" />
+      <div className="fixed inset-0 z-50 bg-colloquiumOrangeLight" />
       <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div className="flex items-center justify-between">
           <ColloquiumLogo />
           <button
             type="button"
-            className="-m-2.5 rounded-md p-2.5 text-white"
+            className="-m-2.5 rounded-md p-2.5 text-black-600"
             onClick={() => setMobileMenuOpen(false)}
           >
             <span className="sr-only">Close menu</span>
@@ -46,7 +46,7 @@ export default function NavMobileView({mobileMenuOpen, setMobileMenuOpen}: NavMo
                 <a
                   key={item.name}
                   href={item.href}
-                  className="-mx-3 block rounded-lg px-3 py-2 black text-base font-semibold leading-7 text-white hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 black text-base font-semibold leading-7 text-black-300 hover:bg-gray-50"
                 >
                   {item.name}
                 </a>
