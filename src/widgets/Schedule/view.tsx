@@ -50,7 +50,7 @@ export default function Schedule() {
       name: "Talk Session 2",
       time: "11:30 AM - 12:00 PM",
       details: "Free and open source in Cloud",
-      member: "Sunil TT",
+      // member: "Sunil TT",
     },
     {
       id: 7,
