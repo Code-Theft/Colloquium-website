@@ -66,7 +66,7 @@ export const aboutUs = [
     id: 2,
     title: "About COLLOQUIUM'23",
     desc: `COLLOQUIUM'23, held on February 25th, 2023, will be centered around Cybersecurity. The event featured technical talks by experts, including Ms. Anita Nair on "An Introduction to Secure Architecture," Dr. Vinod P. on "Malware Detection: A Machine Learning Based Perspective," and Dr. Dittin Andrews on "Recent Trends in Cybersecurity." The day also included a panel discussion on "Incident Response Plan for Working Professionals'' with active participation from attendees.The event successfully achieved its goal of disseminating information, enhancing understanding, and fostering collaboration in the field of Cybersecurity. The positive feedback from participants solidified COLLOQUIUM'23 as a memorable and valuable experience.`,
-    img: "/images/logo.png",
+    img: "/images/logos/colloquium/logoblack.svg",
     reverse: true,
   },
   {
