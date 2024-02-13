@@ -39,7 +39,7 @@ export default function Content() {
               Register Now
             </Link>
             <Link
-              href=""
+              href="/about"
               className="text-sm font-semibold leading-6 text-black hover:text-colloquiumOrange transition duration-300 ease-in-out"
             >
               Learn more <span aria-hidden="true">→</span>
