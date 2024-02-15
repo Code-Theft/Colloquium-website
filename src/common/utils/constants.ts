@@ -38,7 +38,7 @@ export const members = [
     name: "Niran Vijayakumar",
     role: "Assistant Director at EY",
     imageUrl:
-      "/images/assets/speakers/Niran_Vijayakumar.svg",
+      "/images/assets/speakers/niran-vijayakumar.png",
   },
   {
     name: "To be decided",
