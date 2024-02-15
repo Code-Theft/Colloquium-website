@@ -22,47 +22,35 @@ export const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Schedule", href: "/schedule" },
-  { name: "Speakers", href: "#" },
-  { name: "Sponsors", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Speakers", href: "/#speakers" },
+  // { name: "Sponsors", href: "#" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export const members = [
   {
-    name: "John Deo",
-    role: "Full Stack Devloper",
+    name: "Sreejai Kurup",
+    role: "Senior Director - Global Delivery @ SADA,",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "/images/assets/speakers/Sreejai_kurup.svg",
   },
   {
-    name: "Vimal Kumar",
-    role: "DevOps, SADA",
+    name: "Niran Vijayakumar",
+    role: "Assistant Director at EY",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "/images/assets/speakers/Niran_Vijayakumar.svg",
   },
   {
-    name: "John Deo",
-    role: "Full Stack Devloper",
+    name: "To be decided",
+    // role: "DevOps, SADA",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "/images/assets/speakers/unknown.svg",
   },
   {
-    name: "John Deo",
-    role: "Full Stack Devloper",
+    name: "To be decided",
+    // role: "DevOps, SADA",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-  {
-    name: "John Deo",
-    role: "Full Stack Devloper",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-  {
-    name: "John Deo",
-    role: "Full Stack Devloper",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "/images/assets/speakers/unknown.svg",
   },
 ];
 
@@ -71,7 +59,7 @@ export const aboutUs = [
     id: 1,
     title: "About COLLOQUIUM",
     desc: "COLLOQUIUM, hosted annually by the IEEE Computer Society Kerala Chapter (CSKS), is a premier networking and knowledge-sharing event. Designed for IEEE and non-IEEE professionals, COLLOQUIUM provides a unique platform for sharing insights, staying updated on industry trends, and fostering interactions among professionals from diverse technological domains.Each edition focuses on a specific theme, and COLLOQUIUM'24 will highlight the pivotal field of Cloud Computing. Join us at this vibrant event to delve into the latest advancements, connect with experts, and explore the future of technology. Don't miss the opportunity to be part of the dynamic discussions and collaborative sessions that define COLLOQUIUM!",
-    img: "/images/logos/colloquium/black.png",
+    img: "/images/logos/colloquium/logoblack.svg",
     reverse: false,
   },
   {

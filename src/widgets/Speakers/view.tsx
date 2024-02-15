@@ -14,25 +14,26 @@ import { members } from "@utils/constants";
 
 export default function SpeakerView() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-colloquiumOrangeLight py-32">
-      <div className="flex flex-col">
-        <div className="flex flex-col mt-8">
-          <div className="container max-w-7xl px-4">
-            <div className="flex flex-wrap justify-center text-center mb-24">
-              <div className="w-full lg:w-9/12 px-4">
-                <h1 className="text-gray-900 text-4xl font-bold mb-8">
-                  Our Speakers
-                </h1>
-                <p className="text-gray-700 text-lg font-light">
-                  Learn from the best and brightest minds shaping the future of
-                  your industry.
-                </p>
+    <section id="speakers">
+      <div className="flex items-center justify-center min-h-screen bg-colloquiumOrangeLight py-32">
+        <div className="flex flex-col">
+          <div className="flex flex-col mt-8">
+            <div className="container max-w-7xl px-4">
+              <div className="flex flex-wrap justify-center text-center mb-24">
+                <div className="w-full lg:w-9/12 px-4">
+                  <h1 className="text-gray-900 text-4xl font-bold mb-8">
+                    Our Speakers
+                  </h1>
+                  <p className="text-gray-700 text-lg font-light">
+                    Learn from the best and brightest minds shaping the future of
+                    your industry.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="flex flex-wrap">
-              {members?.map((item, index) => (
-                <div
+              <div className="flex flex-wrap">
+                {members?.map((item, index) => (
+                  <div
                     className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4"
                     key={`speaker_map_key_${index + 1}`}
                   >
@@ -54,11 +55,12 @@ export default function SpeakerView() {
                       </div>
                     </div>
                   </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
