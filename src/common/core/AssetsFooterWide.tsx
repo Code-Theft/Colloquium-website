@@ -1,6 +1,7 @@
+import { IconProps } from "@lib/types";
 import React from "react";
 
-export default function AssetsFooterWide() {
+const AssetsFooterWide: React.FC<IconProps> = (props) => {
   return (
     <svg
       width="3240"
@@ -8,7 +9,7 @@ export default function AssetsFooterWide() {
       viewBox="0 0 3240 258"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="AssetsFooterWide"
+      {...props}
     >
       <mask
         id="mask0_0_1"
@@ -776,4 +777,6 @@ export default function AssetsFooterWide() {
       </defs>
     </svg>
   );
-}
+};
+
+export default AssetsFooterWide;

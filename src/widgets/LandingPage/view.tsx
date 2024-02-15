@@ -16,7 +16,7 @@ export default function LandingPageview() {
     <div className="home-custom">
       <Content />
       <div className="landing-footer-container">
-        <AssetsFooterWide />
+        <AssetsFooterWide className="AssetsFooterWide"/>
       </div>
     </div>
   );
