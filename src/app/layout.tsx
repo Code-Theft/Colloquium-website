@@ -12,6 +12,7 @@ import type { Metadata } from "next";
 import "@styles/scss/main.scss";
 import { Children } from "@lib/types";
 import Header from "@widgets/Header";
+import Footer from "@widgets/Footer";
 
 
 export const metadata: Metadata = {
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: Children) {
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

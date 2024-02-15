@@ -9,12 +9,13 @@
 
 "use client";
 
+import dynamic from "next/dynamic";
 import Link from "@components/Link";
 import React, { useState } from "react";
 import Icon3Bars from "@icons/Icon3Bars";
-import { constants, navigation } from "@utils/constants";
 import ColloquiumLogo from "@icons/ColloquiumLogo";
-import NavMobileView from "@widgets/Header/components/NavMobileView";
+import { constants, navigation } from "@utils/constants";
+const NavMobileView = dynamic(()=> import("@widgets/Header/components/NavMobileView"))
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);

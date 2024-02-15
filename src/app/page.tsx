@@ -8,11 +8,10 @@
  */
 
 import React from "react";
-import Footer from "@widgets/Footer";
 import Speaker from "@widgets/Speakers";
-import LandingPageview from "@widgets/LandingPage";
-import FeatureView from "@widgets/Feature";
 import Sponsors from "@widgets/Sponsors";
+import FeatureView from "@widgets/Feature";
+import LandingPageview from "@widgets/LandingPage";
 
 export default function Home() {
   return (
@@ -21,7 +20,6 @@ export default function Home() {
       <FeatureView />
       <Speaker />
       <Sponsors />
-      <Footer />
     </>
   );
 }
