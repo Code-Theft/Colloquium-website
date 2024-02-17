@@ -14,7 +14,6 @@ import { Children } from "@lib/types";
 import Header from "@widgets/Header";
 import Footer from "@widgets/Footer";
 
-
 export const metadata: Metadata = {
   title: "Colloquium24",
   description:

@@ -14,7 +14,7 @@ const people = [
   {
     name: "Sreejai Kurup",
     role: "Senior Director - Global Delivery @ SADA",
-    imageUrl: "/images/assets/speakers/sree.png",
+    imageUrl: "/images/assets/speakers/sreejai.png",
   },
   {
     name: "Niran Vijayakumar",
