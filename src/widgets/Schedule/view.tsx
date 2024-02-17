@@ -30,14 +30,14 @@ export default function Schedule() {
       id: 3,
       name: "Talk Session 1",
       time: "10:00 AM - 10:30 AM",
-      details: "A walkthorugh to Cloud era",
+      details: "Cloud Unbound: The Power of Serverless",
       member: "Niran Vijayakumar",
     },
     {
       id: 4,
       name: "Success Story",
       time: "10:40 AM - 11:10 AM",
-      details: "From Bytewave to GCP",
+      details: "GCP: From grassroots to Fortune",
       member: "Sreejai S Kurup",
     },
     {
@@ -49,7 +49,7 @@ export default function Schedule() {
       id: 6,
       name: "Talk Session 2",
       time: "11:30 AM - 12:00 PM",
-      details: "Free and open source in Cloud",
+      // details: "Free and open source in Cloud",
       // member: "Sunil TT",
     },
     {
@@ -57,7 +57,7 @@ export default function Schedule() {
       name: "Panel Discussion",
       time: "12:00 PM - 01:10 PM",
       details: "Generative AI at scale with Cloud",
-      member: "To be Confirmed",
+      // member: "To be Confirmed",
     },
     {
       id: 8,

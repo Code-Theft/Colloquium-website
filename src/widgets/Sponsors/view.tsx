@@ -29,19 +29,19 @@ const sponsors = [
   },
   {
     id: 3,
-    name: "IEEE YP AG Kerala Section",
-    path: "/images/assets/sponsors/yp-black.png",
-    alt: "MuLearn",
-    height: 60,
-    width: 106,
-  },
-  {
-    id: 4,
     name: "IEEE Kerala Section",
     path: "/images/assets/sponsors/kerala-section-black.png",
     alt: "MuLearn",
     height: 30,
     width: 137,
+  },
+  {
+    id: 4,
+    name: "IEEE YP AG Kerala Section",
+    path: "/images/assets/sponsors/yp-black.png",
+    alt: "MuLearn",
+    height: 60,
+    width: 106,
   },
 ];
 
