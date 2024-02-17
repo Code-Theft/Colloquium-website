@@ -8,15 +8,15 @@
  */
 
 import React from "react";
-import Content from "@widgets/LandingPage/components/Content";
 import AssetsFooterWide from "@core/AssetsFooterWide";
+import Content from "@widgets/LandingPage/components/Content";
 
 export default function LandingPageview() {
   return (
     <div className="home-custom">
       <Content />
       <div className="landing-footer-container">
-        <AssetsFooterWide className="AssetsFooterWide"/>
+        <AssetsFooterWide className="AssetsFooterWide" />
       </div>
     </div>
   );

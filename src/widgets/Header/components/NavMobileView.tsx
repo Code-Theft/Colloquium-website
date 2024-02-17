@@ -14,11 +14,14 @@ import { navigation } from "@utils/constants";
 import ColloquiumLogo from "@icons/ColloquiumLogo";
 
 interface NavMobileViewProps {
-    mobileMenuOpen: boolean;
-    setMobileMenuOpen: React.Dispatch<React.SetStateAction<boolean>>
+  mobileMenuOpen: boolean;
+  setMobileMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-export default function NavMobileView({mobileMenuOpen, setMobileMenuOpen}: NavMobileViewProps) {
+export default function NavMobileView({
+  mobileMenuOpen,
+  setMobileMenuOpen,
+}: NavMobileViewProps) {
   return (
     <Dialog
       as="div"
@@ -36,7 +39,7 @@ export default function NavMobileView({mobileMenuOpen, setMobileMenuOpen}: NavMo
             onClick={() => setMobileMenuOpen(false)}
           >
             <span className="sr-only">Close menu</span>
-            <IconClose className="h-6 w-6" aria-hidden="true" />
+            <IconClose aria-hidden="true" />
           </button>
         </div>
         <div className="mt-6 flow-root">

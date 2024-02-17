@@ -8,7 +8,6 @@
  */
 
 import React from "react";
-import IconCalendar from "@icons/IconCalendar";
 
 export default function Schedule() {
   const schedule = [
@@ -49,15 +48,12 @@ export default function Schedule() {
       id: 6,
       name: "Talk Session 2",
       time: "11:30 AM - 12:00 PM",
-      // details: "Free and open source in Cloud",
-      // member: "Sunil TT",
     },
     {
       id: 7,
       name: "Panel Discussion",
       time: "12:00 PM - 01:10 PM",
       details: "Generative AI at scale with Cloud",
-      // member: "To be Confirmed",
     },
     {
       id: 8,
@@ -71,39 +67,37 @@ export default function Schedule() {
     },
   ];
   return (
-    <>
-      <section className="bg-colloquiumOrangeLight ">
-        <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-black-100">
-              Schedule
-            </h2>
-            <p className="text-gray-700 text-lg font-light py-2">
-              Unlocking Knowledge: Explore Our Engaging Schedule!
-            </p>
-          </div>
+    <section className="bg-colloquiumOrangeLight ">
+      <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-black-100">
+            Schedule
+          </h2>
+          <p className="text-gray-700 text-lg font-light py-2">
+            Unlocking Knowledge: Explore Our Engaging Schedule!
+          </p>
+        </div>
 
-          <div className="flow-root max-w-3xl mx-auto mt-8 sm:mt-12 lg:mt-16">
-            <div className="-my-4 divide-y divide-gray-200">
-              {schedule?.map((item) => (
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-48 text-lg font-normal text-black-200">
-                    {item?.time}
+        <div className="flow-root max-w-3xl mx-auto mt-8 sm:mt-12 lg:mt-16">
+          <div className="-my-4 divide-y divide-gray-200">
+            {schedule?.map((item) => (
+              <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
+                <p className="w-48 text-lg font-normal text-black-200">
+                  {item?.time}
+                </p>
+                <div className="flex flex-col md:flex-row">
+                  <h3 className="text-lg font-semibold text-black-100 inline">
+                    {item?.name}
+                  </h3>
+                  <p className="inline font-light md:ml-2 md:mt-0 mt-2 text-ColloquiumOrangeNormal ">
+                    {item?.details}
                   </p>
-                  <div className="flex flex-col md:flex-row">
-                    <h3 className="text-lg font-semibold text-black-100 inline">
-                      {item?.name}
-                    </h3>
-                    <p className="inline font-light md:ml-2 md:mt-0 mt-2 text-ColloquiumOrangeNormal ">
-                      {item?.details}
-                    </p>
-                  </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }

@@ -15,7 +15,7 @@ export const constants = {
 export const imageAlts = {
   LOGO: "Colloquium Logo",
   CSKS_LOGO: "IEEE Computer Society Kerala Chapter",
-  VENUE: "Park Centre, Technopark"
+  VENUE: "Park Centre, Technopark",
 };
 
 export const navigation = [
@@ -23,7 +23,6 @@ export const navigation = [
   { name: "About", href: "/about" },
   { name: "Schedule", href: "/schedule" },
   { name: "Speakers", href: "/#speakers" },
-  // { name: "Sponsors", href: "#" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -57,58 +56,3 @@ export const aboutUs = [
     reverse: true,
   },
 ] as const;
-
-export const schedule = [
-  {
-    day: "Thursday 28th",
-    events: [
-      {
-        id: 1,
-        name: "Registration",
-        href: "#link",
-        time: "09:00 AM",
-        details: "",
-        member: "Alice Doe",
-      },
-      {
-        id: 2,
-        name: "Introduction",
-        href: "#link",
-        time: "10:30 AM",
-        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        member: "John Doe",
-      },
-      {
-        id: 3,
-        name: "Financial Meeting",
-        href: "#link",
-        time: "14:00 PM",
-        details:
-          "Accusantium atque tempore dolore ratione unde sunt dignissimos recusandae saepe provident architecto.",
-        member: "John Doe",
-      },
-    ],
-  },
-  {
-    day: "Friday 29th",
-    events: [
-      {
-        id: 1,
-        name: "Content Marketing",
-        href: "#link",
-        time: "12:00 AM",
-        details:
-          "Consectetur harum porro quam, facere necessitatibus quos veritatis.",
-        member: "John Doe",
-      },
-      {
-        id: 2,
-        name: "Social Media",
-        href: "#link",
-        time: "15:50 PM",
-        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        member: "Alice Doe",
-      },
-    ],
-  },
-];

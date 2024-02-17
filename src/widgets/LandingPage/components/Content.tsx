@@ -7,9 +7,9 @@
  * @author Janajith D
  */
 
+import React from "react";
 import Link from "@components/Link";
 import { constants } from "@utils/constants";
-import React from "react";
 
 export default function Content() {
   return (
