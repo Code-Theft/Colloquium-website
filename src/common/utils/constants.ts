@@ -27,33 +27,6 @@ export const navigation = [
   { name: "Contact", href: "#contact" },
 ];
 
-export const members = [
-  {
-    name: "Sreejai Kurup",
-    role: "Senior Director - Global Delivery @ SADA",
-    imageUrl:
-      "/images/assets/speakers/Sreejai_kurup.svg",
-  },
-  {
-    name: "Niran Vijayakumar",
-    role: "Assistant Director at EY",
-    imageUrl:
-      "/images/assets/speakers/niran-vijayakumar.png",
-  },
-  {
-    name: "To be decided",
-    // role: "DevOps, SADA",
-    imageUrl:
-      "/images/assets/speakers/unknown.svg",
-  },
-  {
-    name: "To be decided",
-    // role: "DevOps, SADA",
-    imageUrl:
-      "/images/assets/speakers/unknown.svg",
-  },
-];
-
 export const aboutUs = [
   {
     id: 1,
