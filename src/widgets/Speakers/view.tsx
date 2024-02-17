@@ -40,14 +40,15 @@ const people = [
 
 export default function SpeakerView() {
   return (
-    <div className="bg-colloquiumOrangeLight py-24 sm:py-32">
+    <div className="bg-colloquiumOrangeLight py-24 sm:py-32" id="speakers">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Our Speakers
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Learn from the best and brightest minds, including renowned experts and academia, shaping the future of Cloud Computing
+            Learn from the best and brightest minds, including renowned experts
+            and academia, shaping the future of Cloud Computing
           </p>
         </div>
         <ul

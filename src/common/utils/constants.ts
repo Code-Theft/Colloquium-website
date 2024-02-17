@@ -23,7 +23,8 @@ export const navigation = [
   { name: "About", href: "/about" },
   { name: "Schedule", href: "/schedule" },
   { name: "Speakers", href: "/#speakers" },
-  { name: "Contact", href: "#contact" },
+  // { name: "Sponsors", href: "#" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export const aboutUs = [
