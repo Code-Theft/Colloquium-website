@@ -7,5 +7,9 @@
  * @author Janajith D
  */
 
-import {Bars3Icon as Icon3Bars } from '@heroicons/react/24/outline';
-export default Icon3Bars;
+import React from "react";
+import ContactView from "@widgets/Contact";
+
+export default function Contact() {
+  return <ContactView />;
+}

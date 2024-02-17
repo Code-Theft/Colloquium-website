@@ -13,10 +13,8 @@ import Content from "@widgets/About/components/Content";
 
 export default function AboutPageView() {
   return (
-    <>
-      <div className={styles.homeContainer}>
-        <Content />
-      </div>
-    </>
+    <div className={styles.homeContainer}>
+      <Content />
+    </div>
   );
 }

@@ -11,9 +11,5 @@ import React from "react";
 import AboutPageView from "@widgets/About";
 
 export default function About() {
-    return (
-        <>
-            <AboutPageView />
-        </>
-    );
+  return <AboutPageView />;
 }

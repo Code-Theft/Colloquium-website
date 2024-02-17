@@ -16,8 +16,9 @@ import Footer from "@widgets/Footer";
 
 
 export const metadata: Metadata = {
-  title: "Codetheft Portfolio Website",
-  description: "Created with NextJS and TypeScript",
+  title: "Colloquium24",
+  description:
+    "Colloquium is an annual event by the IEEE Computer Society Kerala Chapter, serves as a premier networking platform for IEEE and non-IEEE professionals. This repository serves as the foundation for our team to build and maintain the Colloquium website.The website developed using NextJS - App Router, TypeScript and Tailwind CSS.",
 };
 
 export default function RootLayout({ children }: Children) {

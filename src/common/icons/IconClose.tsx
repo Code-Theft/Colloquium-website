@@ -8,21 +8,22 @@
  */
 
 import React from "react";
-export default function IconCSKSWhite() {
+
+export default function IconClose() {
   return (
     <svg
-      version="1.0"
       xmlns="http://www.w3.org/2000/svg"
-      width="1559.000000pt"
-      height="672.000000pt"
-      viewBox="0 0 1559.000000 672.000000"
-      preserveAspectRatio="xMidYMid meet"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth="1.5"
+      stroke="currentColor"
+      className="h-6 w-6"
     >
-      <g
-        transform="translate(0.000000,672.000000) scale(0.100000,-0.100000)"
-        fill="#000000"
-        stroke="none"
-      ></g>
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M6 18 18 6M6 6l12 12"
+      />
     </svg>
   );
 }

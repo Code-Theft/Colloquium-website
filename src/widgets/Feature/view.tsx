@@ -11,8 +11,8 @@ import React from "react";
 
 import IconDate from "@icons/IconDate";
 import IconTime from "@icons/IconTime";
-import IconLocation from "@icons/IconLocation";
 import { imageAlts } from "@utils/constants";
+import IconLocation from "@icons/IconLocation";
 
 interface FeatureProps {
   name: string;

@@ -1,4 +1,3 @@
-
 /**
  * © IEEE CS Kerala Chapter 2024. All rights reserved.
  *
@@ -9,58 +8,76 @@
  */
 
 import React from "react";
-import Image from "next/image";
-import { members } from "@utils/constants";
+import Image from "@components/Image";
+
+const people = [
+  {
+    name: "Sreejai Kurup",
+    role: "Senior Director - Global Delivery @ SADA",
+    imageUrl: "/images/assets/speakers/sree.png",
+  },
+  {
+    name: "Niran Vijayakumar",
+    role: "Multi Cloud Architect",
+    imageUrl: "/images/assets/speakers/Niran.png",
+  },
+  {
+    name: "Niyas Mohammed",
+    role: "CEO, NeuralCraft Pvt. Ltd",
+    imageUrl: "/images/assets/speakers/niyas.png",
+  },
+  // {
+  //   name: "Dr. Shailesh Sivan",
+  //   role: "AI/ML Consultant, Assistant Professor at CUSAT",
+  //   imageUrl: "/images/assets/speakers/shailesh.png",
+  // },
+  {
+    name: "Dr. Asharaf S",
+    role: "Dean(Development) and Professor, Digital University Kerala",
+    imageUrl: "/images/assets/speakers/asahraf.png",
+  },
+];
 
 export default function SpeakerView() {
   return (
-    <section id="speakers">
-      <div className="flex items-center justify-center min-h-screen bg-colloquiumOrangeLight py-32">
-        <div className="flex flex-col">
-          <div className="flex flex-col mt-8">
-            <div className="container max-w-7xl px-4">
-              <div className="flex flex-wrap justify-center text-center mb-24">
-                <div className="w-full lg:w-9/12 px-4">
-                  <h1 className="text-gray-900 text-4xl font-bold mb-8">
-                    Our Speakers
-                  </h1>
-                  <p className="text-gray-700 text-lg font-light">
-                    Learn from the best and brightest minds shaping the future of
-                    your industry.
+    <div className="bg-colloquiumOrangeLight py-24 sm:py-32" id="speakers">
+      <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+        <div className="max-w-2xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            Our Speakers
+          </h2>
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            Learn from the best and brightest minds, including renowned experts
+            and academia, shaping the future of Cloud Computing
+          </p>
+        </div>
+        <ul
+          role="list"
+          className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
+        >
+          {people.map((person) => (
+            <li key={person.name}>
+              <div className="flex items-center gap-x-6">
+                <Image
+                  className="h-24 w-24 rounded-full"
+                  src={person.imageUrl}
+                  alt={person?.name}
+                  width={400}
+                  height={400}
+                />
+                <div>
+                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
+                    {person.name}
+                  </h3>
+                  <p className="text-sm font-semibold leading-6 text-ColloquiumOrangeNormal">
+                    {person.role}
                   </p>
                 </div>
               </div>
-
-              <div className="flex flex-wrap">
-                {members?.map((item, index) => (
-                  <div
-                    className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4"
-                    key={`speaker_map_key_${index + 1}`}
-                  >
-                    <div className="flex flex-col">
-                      <Image
-                        className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                        src={item?.imageUrl}
-                        width={400}
-                        height={400}
-                        alt={item?.name}
-                      />
-                      <div className="text-center mt-6">
-                        <h1 className="text-gray-900 text-xl font-bold mb-1">
-                          {item?.name}
-                        </h1>
-                        <div className="text-gray-700 font-light mb-2">
-                          {item?.role}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
+            </li>
+          ))}
+        </ul>
       </div>
-    </section>
+    </div>
   );
 }

@@ -7,5 +7,5 @@
  * @author Janajith D
  */
 
-import {XMarkIcon as IconClose } from '@heroicons/react/24/outline';
-export default IconClose;
+import ContactView from "@widgets/Contact/view";
+export default ContactView;

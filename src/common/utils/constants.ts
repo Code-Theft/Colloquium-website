@@ -15,7 +15,7 @@ export const constants = {
 export const imageAlts = {
   LOGO: "Colloquium Logo",
   CSKS_LOGO: "IEEE Computer Society Kerala Chapter",
-  VENUE: "Park Centre, Technopark"
+  VENUE: "Park Centre, Technopark",
 };
 
 export const navigation = [
@@ -24,34 +24,7 @@ export const navigation = [
   { name: "Schedule", href: "/schedule" },
   { name: "Speakers", href: "/#speakers" },
   // { name: "Sponsors", href: "#" },
-  { name: "Contact", href: "#contact" },
-];
-
-export const members = [
-  {
-    name: "Sreejai Kurup",
-    role: "Senior Director - Global Delivery @ SADA,",
-    imageUrl:
-      "/images/assets/speakers/Sreejai_kurup.svg",
-  },
-  {
-    name: "Niran Vijayakumar",
-    role: "Assistant Director at EY",
-    imageUrl:
-      "/images/assets/speakers/niran-vijayakumar.png",
-  },
-  {
-    name: "To be decided",
-    // role: "DevOps, SADA",
-    imageUrl:
-      "/images/assets/speakers/unknown.svg",
-  },
-  {
-    name: "To be decided",
-    // role: "DevOps, SADA",
-    imageUrl:
-      "/images/assets/speakers/unknown.svg",
-  },
+  { name: "Contact", href: "/contact" },
 ];
 
 export const aboutUs = [
@@ -59,7 +32,7 @@ export const aboutUs = [
     id: 1,
     title: "About COLLOQUIUM",
     desc: "COLLOQUIUM, hosted annually by the IEEE Computer Society Kerala Chapter (CSKS), is a premier networking and knowledge-sharing event. Designed for IEEE and non-IEEE professionals, COLLOQUIUM provides a unique platform for sharing insights, staying updated on industry trends, and fostering interactions among professionals from diverse technological domains.Each edition focuses on a specific theme, and COLLOQUIUM'24 will highlight the pivotal field of Cloud Computing. Join us at this vibrant event to delve into the latest advancements, connect with experts, and explore the future of technology. Don't miss the opportunity to be part of the dynamic discussions and collaborative sessions that define COLLOQUIUM!",
-    img: "/images/logos/colloquium/logoblack.svg",
+    img: "/images/logos/colloquium/black.png",
     reverse: false,
   },
   {
@@ -84,58 +57,3 @@ export const aboutUs = [
     reverse: true,
   },
 ] as const;
-
-export const schedule = [
-  {
-    day: "Thursday 28th",
-    events: [
-      {
-        id: 1,
-        name: "Registration",
-        href: "#link",
-        time: "09:00 AM",
-        details: "",
-        member: "Alice Doe",
-      },
-      {
-        id: 2,
-        name: "Introduction",
-        href: "#link",
-        time: "10:30 AM",
-        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        member: "John Doe",
-      },
-      {
-        id: 3,
-        name: "Financial Meeting",
-        href: "#link",
-        time: "14:00 PM",
-        details:
-          "Accusantium atque tempore dolore ratione unde sunt dignissimos recusandae saepe provident architecto.",
-        member: "John Doe",
-      },
-    ],
-  },
-  {
-    day: "Friday 29th",
-    events: [
-      {
-        id: 1,
-        name: "Content Marketing",
-        href: "#link",
-        time: "12:00 AM",
-        details:
-          "Consectetur harum porro quam, facere necessitatibus quos veritatis.",
-        member: "John Doe",
-      },
-      {
-        id: 2,
-        name: "Social Media",
-        href: "#link",
-        time: "15:50 PM",
-        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        member: "Alice Doe",
-      },
-    ],
-  },
-];

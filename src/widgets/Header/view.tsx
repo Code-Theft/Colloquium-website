@@ -15,7 +15,9 @@ import React, { useState } from "react";
 import Icon3Bars from "@icons/Icon3Bars";
 import ColloquiumLogo from "@icons/ColloquiumLogo";
 import { constants, navigation } from "@utils/constants";
-const NavMobileView = dynamic(()=> import("@widgets/Header/components/NavMobileView"))
+const NavMobileView = dynamic(
+  () => import("@widgets/Header/components/NavMobileView")
+);
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
@@ -27,7 +29,9 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <ColloquiumLogo />
+          <Link href="/">
+            <ColloquiumLogo />
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -36,7 +40,7 @@ export default function Header() {
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
-            <Icon3Bars className="h-6 w-6" aria-hidden="true" />
+            <Icon3Bars aria-hidden="true" />
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12 text-black-300">
