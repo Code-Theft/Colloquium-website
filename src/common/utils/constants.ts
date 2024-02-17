@@ -30,7 +30,7 @@ export const navigation = [
 export const members = [
   {
     name: "Sreejai Kurup",
-    role: "Senior Director - Global Delivery @ SADA,",
+    role: "Senior Director - Global Delivery @ SADA",
     imageUrl:
       "/images/assets/speakers/Sreejai_kurup.svg",
   },
