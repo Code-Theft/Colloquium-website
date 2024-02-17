@@ -72,57 +72,38 @@ export default function Schedule() {
   ];
   return (
     <>
-      <div className="flex items-center justify-center min-h-screen bg-colloquiumOrangeLight py-32">
-        <div className="flex flex-col">
-          <div className="flex flex-col mt-4">
-            <div className="container max-w-7xl px-4">
-              <div className="flex flex-wrap justify-center text-center mb-24">
-                <div className="w-full lg:w-9/12 px-4">
-                  <h1 className="text-gray-900 text-4xl font-bold mb-8">
-                    Schedule
-                  </h1>
-                  <p className="text-gray-700 text-lg font-light">
-                    Unlocking Knowledge: Explore Our Engaging Schedule!
+      <section className="bg-colloquiumOrangeLight ">
+        <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-black-100">
+              Schedule
+            </h2>
+            <p className="text-gray-700 text-lg font-light py-2">
+              Unlocking Knowledge: Explore Our Engaging Schedule!
+            </p>
+          </div>
+
+          <div className="flow-root max-w-3xl mx-auto mt-8 sm:mt-12 lg:mt-16">
+            <div className="-my-4 divide-y divide-gray-200">
+              {schedule?.map((item) => (
+                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
+                  <p className="w-48 text-lg font-normal text-black-200">
+                    {item?.time}
                   </p>
-                </div>
-              </div>
-              <div className="mt-7 sm:mt-10 flex flex-col">
-                <div>
-                  <span className="flex items-center py-3 px-5 bg-colloquiumOrange">
-                    <IconCalendar />
-                    <h3 className="text-sm font-semibold uppercase tracking-wide">
-                      24 February 2024, Saturday
+                  <div className="flex flex-col md:flex-row">
+                    <h3 className="text-lg font-semibold text-black-100 inline">
+                      {item?.name}
                     </h3>
-                  </span>
-                  {schedule.map((item) => (
-                    <ul className="py-4 flex flex-col" key={item?.id}>
-                      <li className="group py-3 px-2 sm:px-5 flex items-center">
-                        <div className="flex-shrink-0 mr-5 sm:mr-20 px-2 flex flex-col bg-yellow-50">
-                          <span className="text-sm sm:text-base text-yellow-500 font-bold">
-                            {item?.time}
-                          </span>
-                        </div>
-                        {/* :::details container */}
-                        <div className="col-span-7 sm:col-span-6 px-3">
-                          <p className="text-base text-gray-700 font-bold uppercase">
-                            {item?.name}
-                          </p>
-                          <p className="mt-2 text-xs sm:text-sm text-gray-500">
-                            {item?.member}
-                          </p>
-                          <p className="mt-2 text-xs sm:text-sm text-gray-500">
-                            {item?.details}
-                          </p>
-                        </div>
-                      </li>
-                    </ul>
-                  ))}
+                    <p className="inline font-light md:ml-2 md:mt-0 mt-2 text-ColloquiumOrangeNormal ">
+                      {item?.details}
+                    </p>
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

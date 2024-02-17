@@ -40,12 +40,12 @@ export default function Footerview() {
               </div>
 
               <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 dark:text-gray-400 lg:text-left">
-                IEEE Computer Society (CS) drives progress in Computer Science and
-                Engineering by fostering collaboration among professionals
+                IEEE Computer Society (CS) drives progress in Computer Science
+                and Engineering by fostering collaboration among professionals
                 worldwide. Through conferences, publications, and diverse
-                programs, we empower leaders, ensuring they are equipped to drive
-                innovation and make a positive global impact. Explore more in our
-                footer section.
+                programs, we empower leaders, ensuring they are equipped to
+                drive innovation and make a positive global impact. Explore more
+                in our footer section.
               </p>
             </div>
 
