@@ -31,7 +31,7 @@ export default function Content() {
             insights, stay abreast of industry trends, and facilitate
             interactions across diverse technological domains.
           </p>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
+          <div className="mt-10 flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6">
             <Link
               href={constants.REGISTER_LINK}
               className="rounded-md border boder-indigo bg-black-300 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-colloquiumOrange  hover:text-black-300 transition duration-300 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -40,7 +40,7 @@ export default function Content() {
             </Link>
             <Link
               href="/about"
-              className="text-sm font-semibold leading-6 text-black hover:text-colloquiumOrange transition duration-300 ease-in-out"
+              className="mt-4 lg:mt-0 text-sm font-semibold leading-6 text-black hover:text-colloquiumOrange transition duration-300 ease-in-out"
             >
               Learn more <span aria-hidden="true">→</span>
             </Link>

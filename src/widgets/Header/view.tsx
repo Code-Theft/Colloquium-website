@@ -29,7 +29,9 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <ColloquiumLogo />
+          <Link href="/">
+            <ColloquiumLogo />
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button

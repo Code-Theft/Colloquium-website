@@ -55,7 +55,10 @@ export default function Sponsors() {
           </h2>
           <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-4">
             {sponsors?.map((item) => (
-              <div className="flex justify-center items-center" key={item?.id}>
+              <div
+                className="flex justify-center items-center sm:mx-2 md:mx-0 lg:mx-0"
+                key={item?.id}
+              >
                 <Image
                   src={item?.path}
                   alt={item?.alt}
