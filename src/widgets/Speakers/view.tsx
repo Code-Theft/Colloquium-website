@@ -26,15 +26,20 @@ const people = [
     role: "CEO, NeuralCraft Pvt. Ltd",
     imageUrl: "/images/assets/speakers/niyas.png",
   },
-  // {
-  //   name: "Dr. Shailesh Sivan",
-  //   role: "AI/ML Consultant, Assistant Professor at CUSAT",
-  //   imageUrl: "/images/assets/speakers/shailesh.png",
-  // },
+  {
+    name: "Dr. Shailesh Sivan",
+    role: "AI/ML Consultant, Assistant Professor at CUSAT",
+    imageUrl: "/images/assets/speakers/shailesh.png",
+  },
   {
     name: "Dr. Asharaf S",
     role: "Dean(Development) and Professor, Digital University Kerala",
     imageUrl: "/images/assets/speakers/asahraf.png",
+  },
+  {
+    name: "Joseph Alex",
+    role: "Principal Technology Architect, Infosys",
+    imageUrl: "/images/assets/speakers/joseph.png",
   },
 ];
 

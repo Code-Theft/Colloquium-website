@@ -8,7 +8,7 @@
  */
 
 import React from "react";
-
+import Image from "@components/Image";
 import IconDate from "@icons/IconDate";
 import IconTime from "@icons/IconTime";
 import { imageAlts } from "@utils/constants";
@@ -70,7 +70,7 @@ export default function FeatureView() {
               </dl>
             </div>
           </div>
-          <img
+          <Image
             src="/images/assets/venue.jpg"
             alt={imageAlts.VENUE}
             className="hidden sm:block w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
