@@ -27,7 +27,7 @@ export default function Schedule() {
     },
     {
       id: 3,
-      name: "Talk Session 1",
+      name: "Talk",
       time: "10:00 AM - 10:30 AM",
       details: "Cloud Unbound: The Power of Serverless",
       member: "Niran Vijayakumar",
@@ -42,26 +42,22 @@ export default function Schedule() {
     {
       id: 5,
       name: "Sip & Connect",
-      time: "11:10 AM - 11:30 AM",
+      time: "11:15 AM - 11:45 AM",
     },
+
     {
       id: 6,
-      name: "Talk Session 2",
-      time: "11:30 AM - 12:00 PM",
-    },
-    {
-      id: 7,
       name: "Panel Discussion",
-      time: "12:00 PM - 01:10 PM",
+      time: "11:45 PM - 12:50 PM",
       details: "Generative AI at scale with Cloud",
     },
     {
-      id: 8,
+      id: 7,
       name: "Photo Session & Vote of Thanks",
-      time: "01:10 PM - 01:20 PM",
+      time: "01:00 PM - 01:20 PM",
     },
     {
-      id: 9,
+      id: 8,
       name: "Lunch",
       time: "01:20 PM - 02:00 PM",
     },
